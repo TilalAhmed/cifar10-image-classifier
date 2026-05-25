@@ -1,0 +1,12 @@
+# Saved models
+models/
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
