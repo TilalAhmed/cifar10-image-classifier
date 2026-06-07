@@ -68,7 +68,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 }
 [data-testid="stMetricLabel"] { color: #8b949e !important; font-size: 0.68rem !important; text-transform: uppercase; letter-spacing: 0.5px; }
 [data-testid="stMetricValue"] { color: #fff !important; font-size: 1.4rem !important; font-weight: 700 !important; }
-[data-testid="stMetricDelta"] { color: #484f58 !important; font-size: 0.68rem !important; }
+[data-testid="stMetricDelta"] { color: #8b949e !important; font-size: 0.68rem !important; }
 [data-testid="stMetricDelta"] svg { display: none; }
 
 .stButton > button {
