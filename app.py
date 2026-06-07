@@ -411,7 +411,7 @@ with col6:
     cm_arr = np.array(CM)
     fig_cm = go.Figure(go.Heatmap(
         z=cm_arr, x=short, y=short,
-        colorscale=[[0,'#0d1117'],[0.5,'#1f6feb55'],[1,'#1f6feb']],
+        colorscale=[[0,'#0d1117'],[0.5,'#1a3a6e'],[1,'#1f6feb']],
         showscale=False,
         text=cm_arr, texttemplate="%{text}",
         hovertemplate="Actual: %{y}<br>Predicted: %{x}<br>Count: %{z}<extra></extra>",
