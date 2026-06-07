@@ -280,7 +280,7 @@ with col2:
         font=dict(color="#8b949e", size=9), height=240,
         margin=dict(l=0, r=0, t=0, b=0),
         legend=dict(font=dict(size=8, color="#8b949e"), bgcolor="transparent",
-                    itemwidth=30, x=1, y=0.5),
+                    x=1, y=0.5),
         showlegend=True,
     )
     fig_donut.add_annotation(text="60,000<br><span style='font-size:9px'>Total Images</span>",
