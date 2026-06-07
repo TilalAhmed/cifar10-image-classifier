@@ -279,12 +279,14 @@ with col2:
         paper_bgcolor="#161b22", plot_bgcolor="#161b22",
         font=dict(color="#8b949e", size=9), height=240,
         margin=dict(l=0, r=0, t=0, b=0),
-        legend=dict(font=dict(size=8, color="#8b949e"), bgcolor="transparent",
-                    x=1, y=0.5),
+        legend=dict(font=dict(size=8, color="#8b949e"), bgcolor="rgba(0,0,0,0)"),
         showlegend=True,
     )
-    fig_donut.add_annotation(text="60,000<br><span style='font-size:9px'>Total Images</span>",
-        x=0.38, y=0.5, showarrow=False, font=dict(size=12, color="#fff"), align="center")
+    fig_donut.add_annotation(
+        text="60,000<br>Total Images",
+        x=0.38, y=0.5, showarrow=False,
+        font=dict(size=11, color="#ffffff"), align="center"
+    )
     st.plotly_chart(fig_donut, use_container_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
