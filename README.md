@@ -1,4 +1,4 @@
-[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cifar10-image-classifier-lssnohjpt6ji6aabzzunyh.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://tilalahmed-image-classification-cnn.hf.space)
 # Image Classification on CIFAR-10 (ANN vs CNN)
 
 A deep learning project that compares a baseline **Artificial Neural Network (ANN)** against a **Convolutional Neural Network (CNN)** for image classification on the CIFAR-10 dataset.
