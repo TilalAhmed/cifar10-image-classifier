@@ -1,12 +1,14 @@
-# Saved models
+# Saved models and weights
 models/
 *.h5
+*.keras
 
-# Python
+# Python development
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Environment
+# Environment and Virtual Envs
 .env
 venv/
+.venv/
